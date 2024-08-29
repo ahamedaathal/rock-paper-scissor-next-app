@@ -86,6 +86,7 @@ These functions handle the core game mechanics, including initializing the game 
 2. Navigate to the `move` directory.
 3. Compile and deploy the contract:
    ```
+   aptos init
    aptos move compile
    aptos move publish
    ```
