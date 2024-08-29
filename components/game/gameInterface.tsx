@@ -6,15 +6,15 @@ import { Button } from "@/components/ui/button";
 import { Hand, Grab, Scissors, LucideIcon } from "lucide-react";
 
 export default function GameInterface() {
-  const [computerScore, setComputerScore] = useState(1);
+  const [computerScore, setComputerScore] = useState(0);
   const [playerScore, setPlayerScore] = useState(0);
-  const [playerChoice, setPlayerChoice] = useState("PAPER");
-  const [computerChoice, setComputerChoice] = useState("SCISSOR");
-  const [result, setResult] = useState("YOU LOSE");
+  const [playerChoice, setPlayerChoice] = useState("");
+  const [computerChoice, setComputerChoice] = useState("");
+  const [result, setResult] = useState("");
+  const [isGameActive, setIsGameActive] = useState(false);
 
   const handleChoice = (choice: string) => {
     setPlayerChoice(choice);
-    // In a real game, you would determine the computer's choice and the result here
   };
 
   return (
