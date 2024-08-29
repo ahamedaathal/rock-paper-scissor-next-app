@@ -68,8 +68,8 @@ These functions handle the core game mechanics, including initializing the game 
    Create a `.env.local` file in the root directory and add:
 
    ```
-   NEXT_PUBLIC_APTOS_NODE_URL=https://fullnode.testnet.aptoslabs.com/v1
-   NEXT_PUBLIC_APTOS_NETWORK=testnet
+   NEXT_PUBLIC_MODULE_ADDRESS = "0xa32c9d9f274404e84c798fc70727c8d56890ef4bd56bb082ea9e299e098490e4"
+   NEXT_PUBLIC_MODULE_NAME = "RockPaperScissors"
    ```
 
 4. Run the development server:
