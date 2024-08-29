@@ -107,6 +107,10 @@ These functions handle the core game mechanics, including initializing the game 
 - `/lib`: Utility functions and constants.
 - `/move`: Move smart contract files.
 
+## Video Demo
+
+https://www.youtube.com/watch?v=1gLYh1sI7lQ
+
 ## Future Enhancements
 
 - Implement player vs player mode.
