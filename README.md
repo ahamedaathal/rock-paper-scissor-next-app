@@ -83,7 +83,7 @@ These functions handle the core game mechanics, including initializing the game 
 ## Smart Contract Deployment
 
 1. Ensure you have the Aptos CLI installed.
-2. Navigate to the `move` directory.
+2. Navigate to the `aptos-smart-contract` directory.
 3. Compile and deploy the contract:
    ```
    aptos init
@@ -105,7 +105,7 @@ These functions handle the core game mechanics, including initializing the game 
 - `/components`: React components including game interface elements.
 - `/pages`: Next.js pages for routing.
 - `/lib`: Utility functions and constants.
-- `/move`: Move smart contract files.
+- `/aptos-smart-contract`: Move smart contract files.
 
 ## Video Demo
 
