@@ -103,7 +103,7 @@ These functions handle the core game mechanics, including initializing the game 
 ## Project Structure
 
 - `/components`: React components including game interface elements.
-- `/pages`: Next.js pages for routing.
+- `/app`: Next.js pages for routing.
 - `/lib`: Utility functions and constants.
 - `/aptos-smart-contract`: Move smart contract files.
 
